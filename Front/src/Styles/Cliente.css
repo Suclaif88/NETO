@@ -1,0 +1,127 @@
+.Cliente{
+    float: right;
+    width: 80%;
+    height: 100vh;
+}
+
+.Form {
+    width: 40%;
+    margin: 30px 50px;
+    float: left;
+}
+.Form h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.Form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ccc; 
+}
+
+
+.Form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;  
+    border-radius: 5px;
+    background-color: #ffffff;  
+    font-size: 20x;
+}
+
+
+.Form button {
+    background-color: #444; 
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Form button:hover {
+    background-color: #666;  
+}
+
+.FormEdit {
+  width: 40%;
+  float: right;
+  margin: 30px 0px;
+}
+.FormEdit h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.FormEdit label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc; 
+}
+
+
+.FormEdit input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;  
+  border-radius: 5px;
+  background-color: #ffffff;  
+  font-size: 20x;
+}
+
+
+.FormEdit button {
+  background-color: #444; 
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.FormEdit button:hover {
+  background-color: #666;  
+}
+
+.tabla-clientes {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 20px 50px ;
+}
+
+.tabla-clientes th, .tabla-clientes td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.tabla-clientes th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.tabla-clientes tr {
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #388e3c;
+}
